@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="E:/deshmukhTestNGGuru99">
+<suite name="Guru99 Test Automation suite">
+    
+    <listeners>
+        <listener class-name="com.guru.qa.ExtentReportListner.ExtentReporterNG"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="VGuru99 Testcases">
         <classes>
             <class name="com.guru.qa.testcases.GuruLoginTestCases">
 
